@@ -1,0 +1,49 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "実験",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "ExperimentNumberIntent",
+          "slots": [
+            {
+              "name": "number",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "実験番号 {number}"
+          ]
+        },
+        {
+          "name": "WordIntent",
+          "slots": [
+            {
+              "name": "word",
+              "type": "AMAZON.Color"
+            }
+          ],
+          "samples": []
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "3"
+}

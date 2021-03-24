@@ -1,0 +1,33 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sslCertificateType": "Wildcard",
+          "uri": "https://4986f8d808d1.ap.ngrok.io" #使用するバックエンドのURLに変更する必要有
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "ja-JP": {
+          "description": "Sample Full Description",
+          "examplePhrases": [
+            "アレクサ、ハローワールドを開いて",
+            "こんにちは",
+            "ヘルプ"
+          ],
+          "keywords": [],
+          "name": "シナリオII",
+          "summary": "Sample Short Description"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}

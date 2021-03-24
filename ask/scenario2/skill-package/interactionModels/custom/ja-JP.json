@@ -1,0 +1,45 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "検証",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "してみます",
+            "します",
+            "やります",
+            "はい"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "してみません",
+            "しません",
+            "やりません",
+            "いいえ"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "5"
+}
