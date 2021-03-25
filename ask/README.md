@@ -1,6 +1,6 @@
 ## 環境
 ```
-sudo npm install -g ask-cli
+npm install -g ask-cli
 ```
 
 
